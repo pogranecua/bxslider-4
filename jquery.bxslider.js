@@ -701,6 +701,7 @@
 			// if auto show is running, stop it
 			if (slider.settings.auto) el.stopAuto();
 			el.goToNextSlide();
+			el.startAuto(true);
 			e.preventDefault();
 		}
 
@@ -714,6 +715,7 @@
 			// if auto show is running, stop it
 			if (slider.settings.auto) el.stopAuto();
 			el.goToPrevSlide();
+			el.startAuto(true);
 			e.preventDefault();
 		}
 
